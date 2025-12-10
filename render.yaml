@@ -2,7 +2,7 @@ services:
   - type: web
     name: render-chess-sample
     env: static
-    buildCommand: yarn install && yarn build
+    buildCommand: corepack enable && yarn install && yarn build
     staticPublishPath: dist
     routes:
       - type: rewrite

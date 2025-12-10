@@ -89,7 +89,7 @@ yarn preview
    |------|-----|
    | Name | chess-app（任意） |
    | Branch | main |
-   | Build Command | `yarn install && yarn build` |
+   | Build Command | `corepack enable && yarn install && yarn build` |
    | Publish Directory | `dist` |
 
 5. 「Create Static Site」をクリック
